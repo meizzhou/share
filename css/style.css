@@ -1,0 +1,40 @@
+/* Google web fonts 'Open Sans' */
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+header, body {
+	margin-left: 60px;
+	margin-right: 60px;
+	font-family: 'Cambria';
+}
+
+
+h1 {
+	font-family: 'Myriad Pro';
+	font-size: 140%;
+	color: #007cc3;
+	font-weight: bold;
+	padding-top: 25px;
+}
+
+.logo {
+	float: left;
+}
+
+.search {
+	text-align: center;
+	padding: 15px;
+	margin-top: 25px;
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+	color: #808080;
+}
+
+.search-button {
+	max-width: 18px;
+	max-height: 18px;
+}
+	
+input {
+	outline: 0;
+}
